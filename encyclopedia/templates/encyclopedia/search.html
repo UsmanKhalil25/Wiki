@@ -1,0 +1,27 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+    <h2>Searching for {{title}}</h2>
+    <hr>
+
+    <ul>
+        {%if empty%}
+        <ul class="list-group w-75">
+            <a href="#" class="list-group-item list-group-item-action">Nothing found</a>
+        </ul>
+        {% else %}
+            {%for entry in entries%}
+            <ul class="list-group w-75">
+                <a href="{% url 'title' entry%}" class="list-group-item list-group-item-action">{{entry}}</a>
+
+            </ul>
+            {%endfor%}
+        {%endif%}
+
+    </ul>
+
+{% endblock %}
