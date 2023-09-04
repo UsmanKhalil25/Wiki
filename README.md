@@ -1,5 +1,12 @@
 # Wiki
 A Wikipedia-like online encyclopedia. This was Project 1 of HarvardX's CS50W course in 2021 and was built using Python, Django, CSS, HTML and Bootstrap.
+## Home page
+![Screenshot 2023-09-04 101619](https://github.com/UsmanKhalil25/Wiki/assets/142806683/dd0bc021-a6e9-4289-afee-d79fc2a55122)
+## Create new page
+![Screenshot 2023-09-04 101651](https://github.com/UsmanKhalil25/Wiki/assets/142806683/ca0a67ab-82b3-4be8-8c92-c6141c33d09c)
+## Item Page
+![Screenshot 2023-09-04 101712](https://github.com/UsmanKhalil25/Wiki/assets/142806683/f43b11d5-6e60-4559-aa75-350d312ee521)
+
 ## Specification:
 
 - **Entry Page**
